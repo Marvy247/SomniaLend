@@ -1,0 +1,4 @@
+CollateralContract deployed at:  0x65489A31e4cCe579cC0d8c9eE3Be06DdE8A976D4
+TreasuryContract deployed at:  0x9cE953786c7fEeC5896cBD4ae37af93d737fcaA4
+EthereumCollateralVerifier deployed at:  0x5dB3a10D28610520274528d0aBC6298eF930cF8E
+LendingContractNFT deployed at:  0x2b9D6f696a08eD6cc5a9CCb7Ad77834837B5471e

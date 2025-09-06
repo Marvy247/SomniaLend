@@ -1,0 +1,22 @@
+# Sonic Mainnet Addresses
+
+CollateralContract deployed at: 0x1E967705de6B18F8FC0b15697C86Fbe6010bE581
+TreasuryContract deployed at: 0x3eDff67b31222FD8B4617A32cB0984C11574f75e
+EthereumCollateralVerifier deployed at: 0xe45007fE3Ade114805A4F16463493BD4F07b7d4F
+LendingContractNFT deployed at: 0x44644Ededc4f35d02141479e8202E0DA719695e4
+
+# Test Tokens
+
+Test S Token: 0x90b88C638A233EF78d8f54e60e0e27352C03F59e
+Test USDC Token: 0x97a15306364e1025e07010a7f79B9664638598AE
+Test ETH Token: 0x844cf0dcAFE0c305df0f15eB8bde02459AaB74aB
+Token Faucet: 0x924BC596391c95902626aEefC849314A2D75E3A7
+SonicUniswapV3RouterAddress: 0x086d426f8b653b88a2d6d03051c8b4ab8783be2b
+MockEthereumNFT deployed at: 0x0caC4e3004c452134eD59Db4bcb63128d2140Ace
+
+
+# Demo addresses for the hackathon
+
+amina: '0x742d35Cc6634C0532925a3b8D4e6D3b6e8d3e8A0'
+brian: '0x8ba1f109551bD432803012645a136c82C3e8C9a'
+charity: '0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed'
