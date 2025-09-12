@@ -28,7 +28,7 @@ forge script script/DeployTokensToAddress.s.sol:DeployTokensToAddress \
   --private-key $PRIVATE_KEY \
   --broadcast \
   --verify \
-  --chain-id 146
+  --chain-id 50312
 
 echo ""
 echo "✅ Deployment complete!"

@@ -24,7 +24,7 @@ export const DEMO_WALLETS = {
 };
 
 export const SOMNIA_MAINNET_CONFIG = {
-  chainId: 146,
+  chainId: 50312,
   rpcUrl: 'https://dream-rpc.somnia.network',
   blockExplorer: 'https://shannon-explorer.somnia.network',
   nativeCurrency: {
@@ -48,7 +48,7 @@ export const TOKEN_SYMBOLS = {
 
 export const NETWORKS = {
   SomniaTestnet: {
-    chainId: 146,
+    chainId: 50312,
     name: 'Somnia Mainnet',
     rpcUrl: 'https://dream-rpc.somnia.network',
     blockExplorer: 'https://shannon-explorer.somnia.network',

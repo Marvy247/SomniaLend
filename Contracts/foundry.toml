@@ -21,6 +21,6 @@ somnia_mainnet = { key = "anything", url = "https://shannon-explorer.somnia.netw
 # Somnia Mainnet configuration
 [profile.sonic-mainnet]
 somnia_mainnet_rpc_url = "https://dream-rpc.somnia.network/"
-chain_id = 146
+chain_id = 50312
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

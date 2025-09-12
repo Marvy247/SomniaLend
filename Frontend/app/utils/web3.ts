@@ -8,7 +8,7 @@ import { ethers } from 'ethers';
 
 // Somnia network configuration
 const SOMNIA_RPC_URL = 'https://dream-rpc.somnia.network';
-const SOMNIA_CHAIN_ID = 146;
+const SOMNIA_CHAIN_ID = 50312;
 
 // Contract addresses (deployed on Somnia Testnet)
 export const CONTRACT_ADDRESSES: Record<string, string> = {

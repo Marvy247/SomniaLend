@@ -43,3 +43,4 @@ This implementation follows the requirements from TODO #11 in TODOS.md:
 - Created a responsive dashboard with tab navigation
 
 The components are designed to be modular and reusable, with each screen handling its specific functionality while sharing common styling and utilities.
+https://youtu.be/j4ezMF9kjRQ

@@ -81,11 +81,11 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
     };
   }, [isConnected]);
 
-  // Add network change listener for Somnia Mainnet (chainId 146)
+  // Add network change listener for Somnia Mainnet (chainId 50312)
   useEffect(() => {
     if (typeof window.ethereum !== 'undefined') {
       window.ethereum.on('chainChanged', (chainId: string) => {
-        if (parseInt(chainId, 16) !== 146) {
+        if (parseInt(chainId, 16) !== 50312) {
           setError('Please switch to Somnia Mainnet network');
           disconnectWallet();
         }
@@ -151,11 +151,11 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
       // Verify Somnia Mainnet network
       if (window.ethereum) {
         const chainId = await window.ethereum.request({ method: 'eth_chainId' });
-        if (parseInt(chainId, 16) !== 146) {
+        if (parseInt(chainId, 16) !== 50312) {
           try {
             await window.ethereum.request({
               method: 'wallet_switchEthereumChain',
-              params: [{ chainId: '0x92' }], // 146 in hex
+              params: [{ chainId: '0x92' }], // 50312 in hex
             });
           } catch (switchError: any) {
             if (switchError.code === 4902) {
